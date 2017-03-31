@@ -26,12 +26,10 @@ OPTIONAL_PACKAGES += " \
 	dosfstools \
 	dvblast \
 	dvbsnoop \
-	dvdfs \
 	evtest \
 	exfat-utils \
 	fuse-exfat \
-	gdb \
-	hddtemp \
+        hddtemp \
 	hdparm \
 	inadyn-mt \
 	inetutils \
@@ -64,7 +62,6 @@ OPTIONAL_PACKAGES += " \
 	picocom \
 	ppp \
 	rsync \
-	rtorrent \
 	sabnzbd \
 	satipclient \
 	sshpass \
@@ -78,7 +75,6 @@ OPTIONAL_PACKAGES += " \
 	v4l-utils \
 	vim \
 	wget \
-	wscan \
 	zeroconf \
 	zip \
 	zsh \
