@@ -108,6 +108,7 @@ ENIGMA2_OPTIONAL = " \
 	enigma2-skins \
 	picons-enigma2-meta \
 	softcams-enigma2-meta \
+	packagegroup-openplugins \
 	${@bb.utils.contains("MACHINE_FEATURES", "blindscan-dvbs", "enigma2-plugin-systemplugins-satscan" , "", d)} \
 	${@bb.utils.contains("MACHINE_FEATURES", "dreambox", "", "enigma2-plugin-extensions-backupsuite", d)} \
 	${@bb.utils.contains('EXTRA_IMAGEDEPENDS', 'vuplus-tuner-turbo', 'enigma2-plugin-drivers-dvb-usb-turbo', '', d)} \
