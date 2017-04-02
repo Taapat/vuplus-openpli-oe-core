@@ -29,6 +29,7 @@ OPTIONAL_PACKAGES += " \
 	evtest \
 	exfat-utils \
 	fuse-exfat \
+	dvdfs \
         hddtemp \
 	hdparm \
 	inadyn-mt \
