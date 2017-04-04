@@ -24,19 +24,17 @@ OPTIONAL_PACKAGES += " \
 	diffutils \
 	djmount \
 	dosfstools \
-	dvb-apps \
 	dvblast \
 	dvbsnoop \
-	dvdfs \
 	evtest \
 	exfat-utils \
 	fuse-exfat \
-	gdb \
-	hddtemp \
+	dvdfs \
+        hddtemp \
 	hdparm \
 	inadyn-mt \
 	inetutils \
-	iperf \
+	iperf3 \
 	iproute2 \
 	iputils \
 	joe \
@@ -65,12 +63,10 @@ OPTIONAL_PACKAGES += " \
 	picocom \
 	ppp \
 	rsync \
-	rtorrent \
 	sabnzbd \
 	satipclient \
 	sshpass \
 	smartmontools \
-	smbnetfs \
 	strace \
 	tcpdump \
 	transmission \
@@ -80,7 +76,6 @@ OPTIONAL_PACKAGES += " \
 	v4l-utils \
 	vim \
 	wget \
-	wscan \
 	zeroconf \
 	zip \
 	zsh \

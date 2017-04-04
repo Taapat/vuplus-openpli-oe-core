@@ -6,6 +6,9 @@ HOMEPAGE = "http://www.jspenguin.org/software/dvdfs/"
 DEPENDS = "fuse libdvdread"
 PR = "r1"
 
+
+inherit  pkgconfig
+
 SRC_URI = "http://www.jspenguin.org/software/${PN}/${PN}-${PV}.tar.gz \
 	file://crosscompile.patch \
 	file://defaultdevicesr0.patch \
