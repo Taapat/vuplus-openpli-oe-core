@@ -58,6 +58,7 @@ ENIGMA2_PLUGINS = " \
 	enigma2-plugin-systemplugins-softwaremanager \
 	enigma2-plugin-systemplugins-videomode \
 	enigma2-plugin-systemplugins-videotune \
+	enigma2-plugin-softcams-oscam \
 	\
 	${@bb.utils.contains("MACHINE_FEATURES", "3dtv", "enigma2-plugin-systemplugins-osd3dsetup" , "", d)} \
 	${@bb.utils.contains("MACHINE_FEATURES", "dvb-c", "enigma2-plugin-systemplugins-cablescan" , "", d)} \
